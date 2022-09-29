@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>App Agenda</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css"
+  />
+</head>
+<body>
+    <!--navigation-->
+    <nav class="navbar navbar-light bg-light">
+        <a href="/" class="navbar-brand">
+            App Agenda
+        </a>
+
+    </nav>
+    <div class="container">
+        <!--aplicaiocn en si-->
+        <div id="App " class="row pt-5" >
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Añadir un Nuevo Contacto</h4>
+                    </div>
+                   
+                        <form action="" id="contact-form" class="card-body">
+                            <div class="form-group">
+                               <input type="text" id="name" placeholder="Nombre del Contacto" class="form-control"> 
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="phone" placeholder="Telefono del  contacto" class="form-control"> 
+                             </div> 
+                             <div class="form-group">
+                                <input type="text" id="mail" placeholder="Email del  contacto" class="form-control"> 
+                             </div> 
+
+                             <input type="submit" value="Save" class="btn btn-primary btn-block">
+
+                        </form>
+                   
+
+                </div>
+            </div>
+            
+                
+                <div id="contact-list" class="col-md-8">
+
+
+                </div>
+            
+        </div>
+
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
